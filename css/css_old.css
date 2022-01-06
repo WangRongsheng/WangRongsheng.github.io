@@ -1,0 +1,147 @@
+body {
+	margin: 25px 0px 0px 0px;
+	background-color: #FFFFFF;
+	background-image: url(images/bg.gif);
+	background-position: center;
+	background-repeat: repeat-y;
+	text-align: center;
+}
+
+
+#main {
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+
+#top-nav {
+	width: 765px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Tahoma;
+	font-size: 30px;
+	color: rgb(44, 100, 219);
+	text-align: left;
+	vertical-align: bottom;
+	height: 30px;
+	line-height: 18px;
+	padding-left: 5px;
+
+	background-color: #FFFFFF;
+}
+
+#navigation {
+	float: left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	font-weight: bold;
+	color: rgb(44, 100, 219);
+	background-color: #FAFAFA;
+	text-decoration: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 15px 5px;
+	width: 150px;
+	border-color: #CCCCCC;
+	border-style: solid;
+	border-width: 1px 1px 1px 0px;
+	text-align: right;
+}
+
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 770x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 90%;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	padding: 5px 5px 15px 5px;
+	background-color: #FFFFFF;
+}
+
+#footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	color: #666666;
+	padding: 40px 0px 10px 0px;
+	text-align: center;
+	clear: left;
+	background-color: #FFFFFF;
+}
+
+
+
+a {
+	color: rgb(44, 100, 219);
+	text-decoration: underline;
+}
+a:hover {
+	color: rgb(44, 100, 219);
+	text-decoration: none;
+}
+
+a.small-navigation {
+	color: #999999;
+	text-decoration: none;
+}
+
+a.small-navigation:hover {
+	color: #FF9900;
+}
+
+a.navigation {
+	color: #666666;
+	border-width: 0px 0px 0px 5px;
+	border-color: #DEDEDE;
+	border-style: solid;
+	text-decoration: none;
+	display: block;
+	padding: 3px 0px 3px 5px;
+	text-align: left;
+	font-weight: normal;
+}
+
+a.navigation:hover {
+	border-color: rgb(44, 100, 219);
+	background-color: #EFEFEF;
+}
+
+
+#header {
+	padding: 5px 0px 5px 0px;
+
+	background-color: #FFFFFF;
+}
+
+hr {
+	width: 100%;
+	height: 0px;
+	text-align: center;
+	border-color: #CCCCCC;
+	border-style: dashed;
+	border-width: 0px 0px 1px 0px;
+}
+
+h1 {
+	color: rgb(44, 100, 219);
+	font-size: 180%;
+	text-decoration: none;
+	text-align: left;
+	margin: 0px 0px 15px 0px;
+	font-weight: normal;
+	padding: 2px 50px 0px 0px;
+	border-width: 0px 0px 1px 0px;
+	border-style: solid;
+	border-color: rgb(44, 100, 219);
+	background-color: #FFFFFF;
+}
+
+p {
+
+	padding: 0px 0px 10px 0px;
+	margin-top: 10px;
+}

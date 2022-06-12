@@ -15,9 +15,15 @@
 
 - [极市开发者打榜](https://www.cvmart.net/)
 - [讯飞开发者大赛](http://challenge.xfyun.cn/)
+- [2022高校人工智能创意赛](http://aicontest.baidu.com/)
 
 ## 学习
 
 - [Pytorch深度学习快速入门](https://www.bilibili.com/video/BV1hE411t7RN)
 - [医疗人工智能](https://www.deeplearningai.net/specializationDetail/AI_for_Medicine_Specialization)
 
+- [AIStudio](https://aistudio.baidu.com/) ：飞桨全品类模型
+- [EasyDL](https://ai.baidu.com/easydl/)
+- 模型压缩（量化、蒸馏、剪枝）
+- WebSocket
+- DeepStream

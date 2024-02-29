@@ -3,7 +3,7 @@
 title: 王荣胜
 
 # Name pronunciation (optional)
-name_pronunciation: Rongsheng Wang
+name_pronunciation: Wang Rong Sheng
 
 # Full name (for SEO)
 first_name: Rongsheng

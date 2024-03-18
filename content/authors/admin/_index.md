@@ -85,4 +85,6 @@ highlight_name: true
 ---
 
 Rongsheng Wang is a Master from Macao Polytechnic University (MPU). His research interests include computer vision, large language models and multimodal models. He is seeking a PhD. opportunity, if you are interested you can email him: wrs6@88.com
+
+I'm reviewer for [JBHI](https://www.embs.org/jbhi/).
 {style="text-align: justify;"}

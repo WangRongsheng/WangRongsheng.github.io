@@ -107,9 +107,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/WangRongsheng
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+  #- icon: linkedin
+  #  icon_pack: fab
+  #  link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -121,5 +121,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Rongsheng Wang is a Master from Macao Polytechnic University (MPU). His research interests include computer vision, large language models and multimodal models. He is seeking a PhD. opportunity, if you are interested you can email him: wrs6@88.com
 {style="text-align: justify;"}

@@ -63,6 +63,8 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+
+---
 title: "Test"
 authors:
 - admin

@@ -224,20 +224,20 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  #- block: tag_cloud
+  #  content:
+  #    title: Popular Topics
+  #  design:
+  #    columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Please contact me if you have any questions.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
+      email: wrs6@88.com
       #phone: 888 888 88 88
       #appointment_url: 'https://calendly.com'
       #address:
@@ -278,6 +278,6 @@ sections:
       #  netlify:
           # Enable CAPTCHA challenge to reduce spam?
       #    captcha: false
-    #design:
-    #  columns: '2'
+    design:
+      columns: '2'
 ---

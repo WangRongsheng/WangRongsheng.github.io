@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Rongsheng Wang's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/PKU_red.png" alt="Peking University" class="inline-badge"/></span> B.S., Peking University (2021)'
+  - '<span class="no-break"><img src="assets/images/badges/mpu_master.png" alt="Macao Polytechnic University" class="inline-badge"/></span> B.S., Macao Polytechnic University (2024)'
 
 email: "wrs6@88.com"
 gscholar: SSaBaioAAAAJ
@@ -26,10 +26,10 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash.
 
 education:
-- name: Peking University
-  logo: assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2017 - Jul. 2021
+- name: Macao Polytechnic University
+  logo: assets/images/badges/mpu_master.png
+  position: B.S. in Big Data and Internet of Things
+  date: Sep. 2022 - Jul. 2024
 
 # experience:
 # - name: Peking University

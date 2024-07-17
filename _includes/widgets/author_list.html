@@ -1,17 +1,12 @@
 {%- assign authors = include.authors -%}
 {%- assign has_eq_contrib = false -%}
-{%- assign has_cr_contrib = false -%}
 {%- assign i = 0 -%}
 {%- for _key in authors -%}
     {%- assign last_char = _key | slice: -1, 1%}
-    {%- if last_char == "*" -%}
-        {%- assign key = _key | split: "*" | first -%}
-        {%- assign mark = "*" -%}
-        {%- assign has_eq_contrib = true -%}
     {%- if last_char == "†" -%}
         {%- assign key = _key | split: "†" | first -%}
         {%- assign mark = "†" -%}
-        {%- assign has_cr_contrib = true -%}
+        {%- assign has_eq_contrib = true -%}
     {%- else -%}
         {%- assign key = _key -%}
         {%- assign mark = "" -%}
@@ -42,9 +37,5 @@
 {%- endfor -%}
 
 {%- if has_eq_contrib == true -%}
-<mark>(* <i> equal contribution</i>)</mark>
-{%- endif -%}
-
-{%- if has_cr_contrib == true -%}
-<mark>(† <i> Corresponding author</i>)</mark>
+<mark>(† <i> corresponding author</i>)</mark>
 {%- endif -%}

@@ -7,7 +7,7 @@ pub_date:       "2023"
 abstract: >-
   We employed the few-shot object detection strategy and trained the Faster R-CNN detector with the mainland data set as the base class, followed by fine-tuning with the few-shot approach on the Macau RDT result data set. Moreover, we introduced 2 novel data augmentation methods, namely the “light simulation mask method” and “synthetic positive samples” for an unbalanced data set, to increase the sample size and balance the data set of the RDT detection task.
   
-cover:          assets/images/covers/cover2.jpg
+cover:          assets/images/covers/rdt.jpeg
 authors:
   - Yaofei Duan
   - Rongsheng Wang

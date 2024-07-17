@@ -1,17 +1,21 @@
 ---
-title:          Lorem ipsum dolor sit amet, consectetur adipiscing elit
-date:           2023-01-05 00:01:00 +0800
+title:          PCTMF-Net： heart sound classification with parallel CNNs-transformer and second-order spectral analysis
+date:           2023-08-01 00:01:00 +0800
 selected:       true
-pub:            "Nature Communications"
+pub:            "The Visual Computer"
 pub_date:       "2023"
 abstract: >-
-  Photo by Thomas Renaud on Unsplash. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  We propose a Parallel CNNs-Transformer network with multi-scale feature context aggregation (PCTMF-Net) for electrocardiogram heart sound classification, which combines CNNs and a transformer encoder to extract hierarchical features and achieves state-of-the-art performance on publicly available datasets.
+
 cover:          assets/images/covers/cover1.jpg
 authors:
-- Your Name*
-- Robert White*
-- John Doe
-- Charles Green (Stanford)
+  - Rongsheng Wang
+  - Yaofei Duan
+  - Yukun Li
+  - Dashun Zheng
+  - Xiaohong Liu
+  - ChanTong Lam
+  - Tao Tan
 links:
-  Paper: https://www.cell.com
+  Paper: https://link.springer.com/article/10.1007/s00371-023-03031-5
 ---

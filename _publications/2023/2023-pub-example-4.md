@@ -8,7 +8,7 @@ pub_date:       "2023"
 abstract: >-
   We propose IvyGPT, a large language model trained on medical question-answering data and reinforced with human feedback, achieving state-of-the-art performance for clinical conversational agents while containing over 33 billion parameters manageably within a small GPU cluster.
   
-cover:          assets/images/covers/cover2.jpg
+cover:          assets/images/covers/ivygpt.png
 authors:
   - Rongsheng Wang
   - Yaofei Duan

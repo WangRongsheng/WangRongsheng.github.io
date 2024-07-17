@@ -21,7 +21,7 @@ authors:
   - Yapeng Wang
   - Ka-Hou Chan
   - Tao Tan
-  - Jie Ma
+  - Jie Ma†
 links:
   Code: https://github.com/WangRongsheng/XrayGLM
 ---

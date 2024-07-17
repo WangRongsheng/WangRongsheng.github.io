@@ -1,71 +1,24 @@
-"Your Name":
-  bold: true
-
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
-
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
-
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
-
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
-
 "Rongsheng Wang":
   bold: true
   url: https://www.google.com/?q=Rongsheng+Wang
-
-"Yukun Li":
-  url: https://www.google.com/?q=Yukun+Li
-
-"Yaofei Duan":
-  url: https://www.google.com/?q=Yaofei+Duan
-
+  
 "Tao Tan":
-  url: https://www.google.com/?q=Tao+Tan
-
+  url: https://scholar.google.com/citations?hl=zh-CN&user=lLg3WRkAAAAJ
+  
 "Menghan Hu":
-  url: https://www.google.com/?q=Menghan+Hu
+  url: https://scholar.google.com/citations?user=8-Vo9cUAAAAJ&hl=zh-CN
 
 "Xiaohong Liu":
-  url: https://www.google.com/?q=Xiaohong+Liu
+  url: https://scholar.google.com/citations?user=Tq2hoMQAAAAJ&hl=zh-CN
 
 "Qinquan Gao":
-  url: https://www.google.com/?q=Qinquan+Gao
+  url: https://scholar.google.com/citations?user=liwxSVgAAAAJ&hl=zh-CN
 
 "Tong Tong":
-  url: https://www.google.com/?q=Tong+Tong
+  url: https://scholar.google.com/citations?user=zgFZ93sAAAAJ&hl=zh-CN
 
 "ChanTong Lam":
-  url: https://www.google.com/?q=ChanTong+Lam
-
-"Jiexin Chen":
-  url: https://www.google.com/?q=Jiexin+Chen
-
-"Jiangsheng Xu":
-  url: https://www.google.com/?q=Jiangsheng+Xu
-
-"Haoming Chen":
-  url: https://www.google.com/?q=Haoming+Chen
+  url: https://scholar.google.com/citations?user=GXD7ppMAAAAJ&hl=zh-CN
 
 "Patrick Cheong-Iao Pang":
-  url: https://www.google.com/?q=Patrick+Cheong-Iao+Pang
-
-"Dashun Zheng":
-  url: https://www.google.com/?q=Dashun+Zheng
-
-"Xiaoyan Jin":
-  url: https://www.google.com/?q=Xiaoyan+Jin
-
-"Sio-Kei Im":
-  url: https://www.google.com/?q=Sio-Kei+Im
+  url: https://scholar.google.com/citations?user=-_hOGTwAAAAJ&hl=zh-CN

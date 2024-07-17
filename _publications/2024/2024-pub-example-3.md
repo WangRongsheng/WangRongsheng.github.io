@@ -1,22 +1,30 @@
 ---
-title:          Convallis a cras semper auctor neque vitae rutrum quisque non tellus orci ac
-date:           2024-05-12 00:01:00 +0800
+title:          Xiaoqing： A Q&A model for glaucoma based on LLMs
+date:           2024-05-01 00:01:00 +0800
 selected:       true
-pub:            "International Conference on Machine Learning (ICML)"
+pub:            "Computers in Biology and Medicine"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
+# pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
-  Photo by Pineapple Supply Co. on Unsplash. Massa ultricies mi quis hendrerit dolor magna. Arcu non odio euismod lacinia at quis risus sed. Et tortor at risus viverra. Enim neque volutpat ac tincidunt. Dictum varius duis at consectetur lorem donec.
+  We introduce Xiaoqing, an LLM model tailored for glaucoma developed through comparative and experiential experiments, demonstrating it can better serve glaucoma patients and medical research compared to general and clinical AI assistants by providing more informative and readable responses to glaucoma-related questions in Chinese.
+  
 cover:          assets/images/covers/cover3.jpg
 authors:
-  - Your Name
-  - James Wang
-  - Some Other Name
-  - John Doe
+  - Xiaojuan Xue
+  - Deshiwei Zhang
+  - Chengyang Sun
+  - Yiqiao Shi
+  - Rongsheng Wang
+  - Tao Tan
+  - Peng Gao
+  - Sujie Fan
+  - Guangtao Zhai
+  - Menghan Hu
+  - Yue Wu
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Paper: https://www.sciencedirect.com/science/article/pii/S0010482524004839
+  Demo: https://qa.glaucoma-assistant.com/#/qa
 ---

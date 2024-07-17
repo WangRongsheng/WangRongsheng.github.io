@@ -9,7 +9,7 @@ abstract: >-
   
 cover:          assets/images/covers/cover2.jpg
 authors:
-  - Hui Ning*
+  - Hui Ning†
   - Rongsheng Wang
   - Pengwei Yang
 links:

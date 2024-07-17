@@ -7,7 +7,7 @@ pub_date:       "2023"
 abstract: >-
   We propose a lightweight Focus-RCNet using depthwise separable convolutions and a channel attention module for real-time recyclable waste classification, achieving state-of-the-art accuracy on public datasets while being compact for embedded applications through knowledge distillation.
   
-cover:          assets/images/covers/cover2.jpg
+cover:          assets/images/covers/focus-rcnet.png
 authors:
   - Dashun Zheng
   - Rongsheng Wang

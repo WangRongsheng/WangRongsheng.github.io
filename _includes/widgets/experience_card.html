@@ -57,6 +57,20 @@
                         </div>
                     </div>
                     {% endif %}
+
+                    {% if site.data.profile.service %}
+                    <div class="col-md-6">
+                        <div class="mx-2 my-1">
+                            <h6>Service</h6>
+                            <ul class="list small pl-3 mb-1">
+                                {% for item in site.data.profile.service %}
+                                <li>{{ item.name }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
                 </div>
 
             </div>

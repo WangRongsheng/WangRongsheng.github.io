@@ -1,5 +1,5 @@
 ---
-title:          Xiaoqing： A Q&A model for glaucoma based on LLMs
+title:          Xiaoqing： A Q&A Model for Glaucoma Based on LLMs
 date:           2024-05-01 00:01:00 +0800
 selected:       true
 pub:            "Computers in Biology and Medicine"
@@ -23,7 +23,7 @@ authors:
   - Sujie Fan
   - Guangtao Zhai
   - Menghan Hu
-  - Yue Wu
+  - Yue Wu†
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0010482524004839
   Demo: https://qa.glaucoma-assistant.com/#/qa

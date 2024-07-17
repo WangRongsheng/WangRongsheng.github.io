@@ -43,9 +43,17 @@ education:
 
 
 awards:
-- name: Award Name 2
+- name: First Prize of Baidu PaddlePaddle AGI Hackathon
   date: 2024
-- name: Award Name 1 
+- name: Third Prize of Digital Medical Technology and Application Innovation Competition 2023
+  date: 2024
+- name: Third Prize of Baichuan Intelligence and Amazon Cloud AGI Hackathon
+  date: 2024
+- name: Silver of Kaggle RSNA Screening Mammography Breast Cancer Detection
+  date: 2023
+- name: Honorable Mention of IEEE UV 2022 "Vision Meets Algae" Object Detection Challenge
+  date: 2022
+- name: Baidu PaddlePaddle Developers Experts
   date: 2021
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 

@@ -11,7 +11,7 @@ pub_date:       "2024"
 abstract: >-
   We introduce XrayGLM, a conversational medical visual language model that analyzes and summarizes chest X-rays, aimed at improving domain-specific expertise for radiology tasks compared to general large models.
   
-cover:          assets/images/covers/cover3.jpg
+cover:          assets/images/covers/xrayglm.png
 authors:
   - Lin Li
   - Rongsheng Wang

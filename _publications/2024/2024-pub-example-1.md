@@ -5,7 +5,7 @@ selected:       true
 pub:            "Long-Context Foundation Models (LCFM) at ICML 2024"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Poster</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-warning">Poster</span>'
 pub_date:       "2024"
 
 abstract: >-
@@ -17,7 +17,7 @@ authors:
   - Rongsheng Wang
   - Jiexin Chen
   - Runqi Su
-  - Tao Tan*
+  - Tao Tan†
 links:
   Paper: https://arxiv.org/abs/2407.11536
 ---

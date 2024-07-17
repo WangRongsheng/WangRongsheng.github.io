@@ -7,7 +7,7 @@ pub_date:       "2023"
 abstract: >-
   We propose a Parallel CNNs-Transformer network with multi-scale feature context aggregation (PCTMF-Net) for electrocardiogram heart sound classification, which combines CNNs and a transformer encoder to extract hierarchical features and achieves state-of-the-art performance on publicly available datasets.
 
-cover:          assets/images/covers/cover2.jpg
+cover:          assets/images/covers/pctmf.png
 authors:
   - Rongsheng Wang
   - Yaofei Duan

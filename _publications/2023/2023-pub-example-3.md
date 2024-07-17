@@ -16,7 +16,7 @@ authors:
   - Yukun Li
   - Qinquan Gao
   - Tong Tong
-  - Tao Tan
+  - Tao Tan†
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0141938223000367
 ---

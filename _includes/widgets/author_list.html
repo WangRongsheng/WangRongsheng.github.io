@@ -9,7 +9,7 @@
         {%- assign mark = "*" -%}
         {%- assign has_eq_contrib = true -%}
     {%- if last_char == "†" -%}
-        {%- assign key = _key | split: "*" | first -%}
+        {%- assign key = _key | split: "†" | first -%}
         {%- assign mark = "†" -%}
         {%- assign has_cr_contrib = true -%}
     {%- else -%}

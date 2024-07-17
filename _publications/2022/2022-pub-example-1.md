@@ -7,7 +7,7 @@ pub_date:       "2022"
 abstract: >-
   We propose EfficientNet-YOLOv5 for marine microalgae detection to address challenges of tiny objects and unequal categories, achieving improved accuracy over baseline models on microscopy datasets.
   
-cover:          assets/images/covers/cover2.jpg
+cover:          assets/images/covers/eff-net.png
 authors:
   - Rongsheng Wang
   - Yukun Li

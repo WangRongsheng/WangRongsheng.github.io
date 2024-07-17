@@ -11,10 +11,10 @@ cover:          assets/images/covers/cover2.jpg
 authors:
   - Yaofei Duan
   - Rongsheng Wang
-  - Tao Tan
+  - Tao Tan†
   - Xiaoyan Jin
-  - ChanTong Lam
-  - Sio-Kei Im
+  - ChanTong Lam†
+  - Sio-Kei Im†
 links:
   Paper: https://journals.lww.com/inr/fulltext/2023/11000/rdt_fsdet__few_shot_object_detection_for_rapid.4.aspx
 ---

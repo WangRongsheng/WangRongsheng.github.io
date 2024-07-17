@@ -1,5 +1,5 @@
 ---
-title:          Focus-RCNet： a lightweight recyclable waste classification algorithm based on focus and knowledge distillation
+title:          Focus-RCNet： A Lightweight Recyclable Waste Classification Algorithm Based on Focus and Knowledge Distillation
 date:           2023-10-11 00:01:00 +0800
 selected:       false
 pub:            "Visual Computing for Industry, Biomedicine, and Art"
@@ -12,7 +12,7 @@ authors:
   - Dashun Zheng
   - Rongsheng Wang
   - Yaofei Duan
-  - Patrick Cheong-Iao Pang
+  - Patrick Cheong-Iao Pang†
   - Tao Tan
 links:
   Paper: https://link.springer.com/article/10.1186/s42492-023-00146-3

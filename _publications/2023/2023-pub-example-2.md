@@ -1,21 +1,17 @@
 ---
-title:          Pharetra Massa Massa Ultricies Mi Nisl Tincidunt
-date:           2023-01-21 00:01:00 +0800
+title:          Aux-ViT： Classification of Alzheimer's Disease from MRI based on Vision Transformer with Auxiliary Branch
+date:           2023-04-14 00:01:00 +0800
 selected:       false
-pub:            "International Conference on Learning Representations (ICLR)"
+pub:            "2023 5th International Conference on Communications, Information System and Computer Engineering (CISCE)"
 pub_date:       "2023"
 abstract: >-
-  Photo by Dessy Dimcheva on Unsplash. Viverra nibh cras pulvinar mattis nunc sed. Quam quisque id diam vel quam elementum pulvinar etiam. Ac felis donec et odio pellentesque. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit. A pellentesque sit amet porttitor eget. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed.
+  We propose an Aux-ViT model for Alzheimer's diagnosis using MRI that adds an auxiliary branch to the Vision Transformer backbone to preserve shallow features and reduce overfitting, achieving improved accuracy over the baseline ViT model through multi-scale data preprocessing and augmentation techniques.
 
 cover:          assets/images/covers/cover2.jpg
 authors:
-  - Charles Green (MIT)
-  - Your Name
-  - John Doe
-  - Robert White
-  - James Wang
+  - Yaofei Duan
+  - Rongsheng Wang
+  - Yukun Li
 links:
-  Paper: https://www.biorxiv.org
-  Code: https://github.com
-  Unsplash: https://unsplash.com/photos/orange-fruit-on-white-table-cloth-ISX_imp8t1o
+  Paper: https://ieeexplore.ieee.org/abstract/document/10142358/
 ---

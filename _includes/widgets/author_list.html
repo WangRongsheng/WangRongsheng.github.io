@@ -21,7 +21,7 @@
     {%- endif -%}
 
     {%- if info['bold'] == true -%}
-        {%- assign display_name = name | append: mark | prepend: "<strong style='background-color: yellow;'>" | append: "</strong>" -%}
+        {%- assign display_name = name | append: mark | prepend: "<strong style='background-color: lightgray;'>" | append: "</strong>" -%}
     {%- else -%}
         {%- assign display_name = name | append: mark -%}
     {%- endif -%}

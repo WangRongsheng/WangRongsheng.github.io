@@ -1,6 +1,6 @@
 ---
 title:          EfficientNet-YOLOv5： Improved YOLOv5 Based on EfficientNet Backbone for Object Detection on Marine Microalgae
-date:           2023-01-21 00:01:00 +0800
+date:           2022-10-22 00:01:00 +0800
 selected:       false
 pub:            "2022 6th International Conference on Universal Village (UV)"
 pub_date:       "2022"

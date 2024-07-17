@@ -11,7 +11,7 @@ pub_date:       "2024"
 abstract: >-
   We introduce Xiaoqing, an LLM model tailored for glaucoma developed through comparative and experiential experiments, demonstrating it can better serve glaucoma patients and medical research compared to general and clinical AI assistants by providing more informative and readable responses to glaucoma-related questions in Chinese.
   
-cover:          assets/images/covers/cover3.jpg
+cover:          assets/images/covers/xiaoqing.jpg
 authors:
   - Xiaojuan Xue
   - Deshiwei Zhang

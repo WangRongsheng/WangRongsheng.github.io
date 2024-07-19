@@ -19,4 +19,5 @@ authors:
   - Tao Tan†
 links:
   Paper: https://link.springer.com/article/10.1007/s00371-023-03031-5
+  Cite: assets/bibtex/wang2023pctm.bib
 ---

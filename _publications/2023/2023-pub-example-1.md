@@ -3,6 +3,7 @@ title:          PCTMF-Net： Heart Sound Classification with Parallel CNNs-Trans
 date:           2023-08-01 00:01:00 +0800
 selected:       true
 pub:            "The Visual Computer"
+pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
 pub_date:       "2023"
 abstract: >-
   We propose a Parallel CNNs-Transformer network with multi-scale feature context aggregation (PCTMF-Net) for electrocardiogram heart sound classification, which combines CNNs and a transformer encoder to extract hierarchical features and achieves state-of-the-art performance on publicly available datasets.

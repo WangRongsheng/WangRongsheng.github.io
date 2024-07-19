@@ -3,6 +3,7 @@ title:          EfficientNet-YOLOv5： Improved YOLOv5 Based on EfficientNet Bac
 date:           2022-10-22 00:01:00 +0800
 selected:       false
 pub:            "2022 6th International Conference on Universal Village (UV)"
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
 pub_date:       "2022"
 abstract: >-
   We propose EfficientNet-YOLOv5 for marine microalgae detection to address challenges of tiny objects and unequal categories, achieving improved accuracy over baseline models on microscopy datasets.

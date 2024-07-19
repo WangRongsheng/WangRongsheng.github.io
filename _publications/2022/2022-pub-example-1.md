@@ -17,4 +17,5 @@ authors:
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10185489/
   Competition: https://tianchi.aliyun.com/competition/entrance/532036?spm=a2c22.12281965.0.0.4c885d9be7TB5u
+  Cite: assets/bibtex/wang2022efficientnet.bib
 ---

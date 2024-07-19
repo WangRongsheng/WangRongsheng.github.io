@@ -28,4 +28,5 @@ authors:
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0010482524004839
   Demo: https://qa.glaucoma-assistant.com/#/qa
+  Cite: assets/bibtex/xue2024xiaoqing.bib
 ---

@@ -17,7 +17,7 @@ zhihu: wang-rong-sheng-74
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I am Rongsheng Wang, I used to study at Macao Polytechnic University (MPU) and work under the supervision of Prof.<a href="https://scholar.google.com/citations?hl=zh-CN&user=lLg3WRkAAAAJ">Tao Tan</a>. My research interests are computer vision, LLM, trusted LLM, RAG, and Agent systems. I am also interested in generative data research. I am currently seeking a PhD opportunity. <br> I publish a lot of open source projects on <a href="https://github.com/WangRongsheng">Github</a>. I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">Ollama</a> to help people use it locally.
+  I am Rongsheng Wang, I used to study at Macao Polytechnic University (MPU) and work under the supervision of Prof.<a href="https://scholar.google.com/citations?hl=zh-CN&user=lLg3WRkAAAAJ">Tao Tan</a>. My research interests are computer vision, LLM, trusted LLM, RAG, and Agent systems. I am also interested in generative data research. I am currently seeking a PhD opportunity. <br> I publish a lot of open source projects on <a href="https://github.com/WangRongsheng">🔗Github</a>. I shared some of the datasets and model weights used by the project at <a href="https://huggingface.co/wangrongsheng">🔗HuggingFace</a>. I likewise like to post some small-parameter LM at <a href="https://ollama.com/wangrongsheng">🔗Ollama</a> to help people use it locally.
 
 show_portrait: true
 portrait_url: assets/images/photos/profile_wrs.jpg

@@ -17,4 +17,5 @@ authors:
   - Tao Tan
 links:
   Paper: https://link.springer.com/article/10.1186/s42492-023-00146-3
+  Cite: assets/bibtex/zheng2023focus.bib
 ---

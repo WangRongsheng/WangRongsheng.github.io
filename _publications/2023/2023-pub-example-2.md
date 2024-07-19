@@ -15,4 +15,5 @@ authors:
   - Yukun Li
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10142358/
+  Cite: assets/bibtex/duan2023vit.bib
 ---

@@ -16,6 +16,42 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <!-- ICON -->
     <link rel="shortcut icon" href="assets/images/etc/bitbug_favicon.ico" />
+    <!-- Quote CSS-->
+    <style>
+/*         body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        } */
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 10px solid #3498db;
+            background: #ecf5fc;
+            padding: 15px 20px;
+            margin: 20px 0;
+            position: relative;
+            quotes: "“" "”" "‘" "’";
+        }
+        blockquote:before {
+            color: #3498db;
+            content: open-quote;
+            font-size: 2em;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        blockquote:after {
+            color: #3498db;
+            content: close-quote;
+            font-size: 2em;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+    </style>
 </head>
 
 <body class="bg-light" {{ page.body_attr }}>

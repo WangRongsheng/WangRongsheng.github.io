@@ -20,4 +20,5 @@ authors:
   - Tao Tan†
 links:
   Paper: https://www.sciencedirect.com/science/article/pii/S0141938223000367
+  Cite: assets/bibtex/wang2023lightr.bib
 ---

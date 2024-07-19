@@ -18,4 +18,5 @@ authors:
   - Sio-Kei Im†
 links:
   Paper: https://journals.lww.com/inr/fulltext/2023/11000/rdt_fsdet__few_shot_object_detection_for_rapid.4.aspx
+  Cite: assets/bibtex/duan2023rdt.bib
 ---

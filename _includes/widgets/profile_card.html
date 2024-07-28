@@ -71,6 +71,12 @@
                         </a>
                         {% endif %}
 
+                        {% if site.data.profile.resume %}
+                        <a class="pr-3 no-break" target="_blank" href="https://wangrongsheng.github.io/{{ site.data.profile.resume }}">
+                            <i class="fab fa-file"></i> Resume
+                        </a>
+                        {% endif %}
+
                         {% if site.data.profile.linkedin %}
                         <a class="pr-3 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
                             <i class="fab fa-linkedin"></i> LinkedIn

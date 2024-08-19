@@ -1,6 +1,6 @@
 ---
 title:          3MT-Net：A Multi-modal Multi-task Model for Breast Cancer and Pathological Subtype Classification Based on a Multicenter Study
-date:           2024-05-01 00:01:00 +0800
+date:           2024-08-01 00:01:00 +0800
 selected:       true
 pub:            "IEEE Journal of Biomedical and Health Informatics"
 # pub_pre:        "Submitted to "

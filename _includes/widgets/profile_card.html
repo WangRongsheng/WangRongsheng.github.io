@@ -46,6 +46,12 @@
                             <i class="fab fa-google"></i> Google Scholar
                         </a>
                         {% endif %}
+
+                        {% if site.data.profile.sscholar %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}&hl=en">
+                            <i class="fab fa-google-scholar"></i> Semantic Scholar
+                        </a>
+                        {% endif %}
                         
                         {% if site.data.profile.github %}
                         <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">

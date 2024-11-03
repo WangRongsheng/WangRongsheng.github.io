@@ -11,19 +11,19 @@ num_selected: 10
 {% endif %}
 
 {% if site.data.display.homepage.show_news %}
-{% assign count_news = site.news | size %}
-{% if count_news > 0 %}
-{% include widgets/news_card.html %}
-{% endif %}
+    {% assign count_news = site.news | size %}
+    {% if count_news > 0 %}
+        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
+    {% endif %}
 {% endif %}
 
 {% if site.data.display.homepage.show_selected_publications %}
-{% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-{% 
-    include widgets/publication_card.html 
-    publications=pubs limit=page.num_selected 
-    title='<i class="fas fa-star"></i> Selected Publications'
-%}
+    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+    {% 
+        include widgets/publication_card.html 
+        publications=pubs
+        title='<i class="fas fa-star"></i> Selected Publications'
+    %}
 {% endif %}
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=99b2b5&w=200&t=tt&d=w1jsZcYWX6uhqj7qrDV6Yu5EWXmHKKNJ4FzY6TnXcWs&co=f8f9fa&ct=b32b42'></script>

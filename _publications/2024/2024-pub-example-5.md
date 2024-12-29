@@ -1,5 +1,5 @@
 ---
-title:          Med-MAT: On the Compositional Generalization of Multimodal LLMs for Medical Imaging
+title:          Med-MAT： On the Compositional Generalization of Multimodal LLMs for Medical Imaging
 date:           2024-12-16 00:01:00 +0800
 selected:       true
 pub:            "arXiv"

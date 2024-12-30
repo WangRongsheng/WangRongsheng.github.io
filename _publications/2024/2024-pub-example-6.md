@@ -21,7 +21,7 @@ authors:
   - Rongsheng Wang
   - Benyou Wang†
 links:
-  Paper: https://github.com/FreedomIntelligence/HuatuoGPT-o1/blob/main/assets/paper.pdf
+  Paper: https://arxiv.org/abs/2412.18925
   Code: https://github.com/FreedomIntelligence/HuatuoGPT-o1
   Dataset: https://huggingface.co/datasets/FreedomIntelligence/medical-o1-reasoning-SFT
   Model: https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-70B

@@ -23,6 +23,7 @@ authors:
   - Zixu Zhang
   - Benyou Wang†
 links:
+  Paper: https://arxiv.org/abs/2412.20070
   Code: https://github.com/FreedomIntelligence/Med-MAT
   Dataset: https://huggingface.co/datasets/FreedomIntelligence/Med-MAT
 ---

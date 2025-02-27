@@ -37,6 +37,10 @@ education:
   date: Sep. 2018 - Jul. 2022
   
 experience:
+- name: The Chinese University of Hong Kong, Shenzhen
+  logo: assets/images/badges/cuhk-sz.png
+  position: 
+  date: Sep. 2024 - Now
 - name: Qiyuan.Tech
   logo: assets/images/badges/qiyuan.png
   position: CTO, Reasercher

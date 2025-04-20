@@ -37,10 +37,10 @@ education:
   date: Sep. 2018 - Jul. 2022
   
 experience:
-# - name: CUHK (SZ)
-#   logo: assets/images/badges/cuhk-sz.png
-#   position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
-#   date: Sep. 2024 - Now
+- name: CUHK (SZ)
+  logo: assets/images/badges/cuhk-sz.png
+  position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
+  date: Sep. 2024 - Now
 - name: Qiyuan.Tech
   logo: assets/images/badges/qiyuan.png
   position: CTO, Reasercher

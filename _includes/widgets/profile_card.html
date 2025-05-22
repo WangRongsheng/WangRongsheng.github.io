@@ -94,6 +94,19 @@
                             <i class="fab fa-orcid"></i> ORCID
                         </a>
                         {% endif %}
+
+                        {% if site.data.profile.rednote %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.xiaohongshu.com/user/profile/{{ site.data.profile.xiaohongshu }}">
+                            <i class="fas fa-book"></i> RedNote
+                        </a>
+                        {% endif %}
+
+                        {% if site.data.profile.xiaohongshu %}
+                        <a class="pr-3 no-break" target="_blank" href="https://www.xiaohongshu.com/user/profile/{{ site.data.profile.xiaohongshu }}">
+                            <img src="https://github.com/WangRongsheng/WangRongsheng.github.io/blob/main/assets/images/rednote.png" alt="小红书" style="height: 1em; vertical-align: middle;"> 小红书
+                        </a>
+                        {% endif %}
+
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 title:          Med-MAT： On the Compositional Generalization of Multimodal LLMs for Medical Imaging
 date:           2024-12-16 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
+pub:            "ACL 2025"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'

@@ -21,8 +21,8 @@ authors:
   - Yunjin Yang
   - Benyou Wang†
 links:
-  Project: https://freedomintelligence.github.io/MedGen
-  Paper: https://arxiv.org/
+  Paper: https://www.arxiv.org/abs/2507.05675
   Code: https://github.com/FreedomIntelligence/MedGen
   Dataset: https://huggingface.co/datasets/FreedomIntelligence/MedVideoCap-55K
+  Model: https://huggingface.co/FreedomIntelligence/MedGen
 ---

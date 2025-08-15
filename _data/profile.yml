@@ -28,6 +28,10 @@ portrait_caption: >-
   我是王荣胜，欢迎访问我的主页~
 
 education:
+- name: The Chinese University of Hong Kong, Shenzhen
+  logo: assets/images/badges/cuhk-sz.png
+  position: Ph.D.in Computational Biology and Health Informatics
+  date: Sep. 2025 - Now
 - name: Macao Polytechnic University
   logo: assets/images/badges/mpu_master.png
   position: M.S. in Big Data and Internet of Things

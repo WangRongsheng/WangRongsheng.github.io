@@ -2,11 +2,11 @@
 title:          HuatuoGPT-o1, Towards Medical Complex Reasoning with LLMs
 date:           2024-12-17 00:01:00 +0800
 selected:       true
-pub:            "ACL 2025"
+pub:            "ACL"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
-pub_date:       "2024"
+pub_date:       "2025"
 
 abstract: >-
   We introduce HuatuoGPT-o1, a medical LLM designed for advanced medical reasoning. It identifies mistakes, explores alternative strategies, and refines its answers by leveraging a specialized medical verifier. The model enhances reasoning through two key approaches: guiding complex reasoning trajectories for fine-tuning with the verifier and applying reinforcement learning (PPO) with verifier-based rewards to further improve reasoning.

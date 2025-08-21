@@ -9,7 +9,7 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Co
 pub_date:       "2025"
 
 abstract: >-
-  We introduce **ShizhenGPT**, the first multimodal LLM tailored for Traditional Chinese Medicine, designed to overcome data scarcity and enable holistic perception across text, images, audio, and physiological signals for advanced TCM diagnosis and reasoning.
+  We introduce ShizhenGPT, the first multimodal LLM tailored for Traditional Chinese Medicine, designed to overcome data scarcity and enable holistic perception across text, images, audio, and physiological signals for advanced TCM diagnosis and reasoning.
 
 cover:          assets/images/covers/shizhengpt.png
 authors:

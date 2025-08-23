@@ -29,5 +29,6 @@ authors:
 links:
   Paper: https://arxiv.org/abs/2508.14706
   Code: https://github.com/FreedomIntelligence/ShizhenGPT
-  Model: https://huggingface.co/FreedomIntelligence/ShizhenGPT-7B-Omni
+  Dataset: https://huggingface.co/datasets/FreedomIntelligence/TCM-Instruction-Tuning-ShizhenGPT
+  Model: https://huggingface.co/FreedomIntelligence/ShizhenGPT-32B-VL
 ---

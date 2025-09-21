@@ -76,5 +76,21 @@
         },
       });
     </script> -->
+
+    <script>
+    const name = "王荣胜"; // 把这里改成你的名字
+    const btn = document.getElementById('speakBtn');
+
+    btn.addEventListener('click', () => {
+      if (!('speechSynthesis' in window)) {
+        alert('当前浏览器不支持语音朗读');
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const utter = new SpeechSynthesisUtterance(name);
+      utter.lang = 'zh-CN';
+      window.speechSynthesis.speak(utter);
+    });
+  </script>
 </body>
 </html>

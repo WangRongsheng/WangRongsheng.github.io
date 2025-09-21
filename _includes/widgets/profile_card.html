@@ -34,7 +34,7 @@
           {% endif %}
         </div>
 
-        <!-- ✅ 美化后的联系方式/社交链接区块 -->
+        <!-- ✅ 紧凑化的联系方式/社交链接区块 -->
         <style>
         .profile-links {
           display: flex;
@@ -49,7 +49,7 @@
           --chip-hover: #fff;
           display: inline-flex;
           align-items: center;
-          padding: .45rem .75rem;
+          padding: .35rem .65rem;
           border: 1px solid var(--chip-bd);
           border-radius: 999px;
           background: var(--chip-bg);
@@ -60,14 +60,15 @@
           box-shadow: 0 1px 1px rgba(0,0,0,.04);
           font-weight: 500;
           white-space: nowrap;
+          font-size: 0.9rem;
         }
         .profile-chip:hover { 
           transform: translateY(-1px);
           background: var(--chip-hover);
-          box-shadow: 0 4px 10px rgba(0,0,0,.08);
+          box-shadow: 0 3px 6px rgba(0,0,0,.08);
           text-decoration: none; 
         }
-        .profile-chip i, .profile-chip img { margin-right: .5rem; }
+        .profile-chip i, .profile-chip img { margin-right: .4rem; }
         .profile-chip img { height: 1em; vertical-align: middle; }
         .profile-chip .email-text { font-variant-numeric: lining-nums; }
 
@@ -88,19 +89,19 @@
           }
         }
         .profile-section {
-          border: 1px solid rgba(0,0,0,.1);
-          border-radius: 12px;
-          padding: 1.5rem;
-          margin: 2rem 0;
+          border: 1px solid rgba(0,0,0,.08);
+          border-radius: 10px;
+          padding: 1rem;
+          margin: 1.25rem 0;
           background: #fff;
         }
         [data-theme="dark"] .profile-section, @media (prefers-color-scheme: dark) {
           .profile-section { background: #1f2227; border-color: rgba(255,255,255,.1); }
         }
         .profile-section-title {
-          font-size: 1rem;
+          font-size: .95rem;
           font-weight: 600;
-          margin-bottom: 1rem;
+          margin-bottom: .75rem;
           color: #444;
         }
         [data-theme="dark"] .profile-section-title, @media (prefers-color-scheme: dark) {

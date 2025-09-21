@@ -34,7 +34,7 @@
           {% endif %}
         </div>
 
-        <!-- ✅ 紧凑化的联系方式/社交链接区块 -->
+        <!-- ✅ 紧凑化 + 跑马灯边框动画 的联系方式/社交链接区块 -->
         <style>
         .profile-links {
           display: flex;
@@ -88,21 +88,60 @@
             --chip-hover: #262a30;
           }
         }
+
+        /* ---- 分组外框（紧凑 + 沿边框跑马灯） ---- */
         .profile-section {
-          border: 1px solid rgba(0,0,0,.08);
+          position: relative;
+          border: 1px solid rgba(0,0,0,.08); /* ✅ 默认淡色边框 */
           border-radius: 10px;
           padding: 1rem;
-          margin: 1.25rem 0;
+          margin: 1rem 0;
           background: #fff;
+          transition: box-shadow .2s ease, border-color .2s ease;
         }
+        .profile-section:focus-within { outline: none; box-shadow: 0 0 0 3px rgba(13,110,253,.15); }
+
+        /* 跑马灯条：默认隐藏，悬停时出现并沿边框流动 */
+        .profile-section::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border-radius: inherit;
+          padding: 2px; /* 跑马灯厚度 */
+          background: linear-gradient(90deg, #4dabf7, #51cf66, #ffd43b, #ff6b6b, #4dabf7);
+          background-size: 300% 100%;
+          -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+          -webkit-mask-composite: xor;
+          mask-composite: exclude;
+          opacity: 0; /* ⛔ 默认隐藏 */
+          transition: opacity .2s ease;
+          pointer-events: none;
+        }
+        .profile-section:hover { box-shadow: 0 6px 18px rgba(0,0,0,.08); border-color: transparent; /* 悬停时让出位置给跑马灯 */ }
+        .profile-section:hover::before { opacity: 1; animation: marquee-border 5s linear infinite; }
+
+        @keyframes marquee-border {
+          0% { background-position: 0% 50%; }
+          100% { background-position: 300% 50%; }
+        }
+
+        /* 暗色模式：默认淡色边 + 悬停发光 */
         [data-theme="dark"] .profile-section, @media (prefers-color-scheme: dark) {
-          .profile-section { background: #1f2227; border-color: rgba(255,255,255,.1); }
+          .profile-section { background: #1f2227; border-color: rgba(255,255,255,.12); }
+          .profile-section:hover { box-shadow: 0 10px 24px rgba(0,0,0,.5); border-color: transparent; }
         }
+
+        /* 无动画偏好：只在悬停时显示静态彩色描边 */
+        @media (prefers-reduced-motion: reduce) {
+          .profile-section:hover::before { animation: none; opacity: .95; }
+        }
+
         .profile-section-title {
           font-size: .95rem;
           font-weight: 600;
           margin-bottom: .75rem;
           color: #444;
+          display: flex; align-items: center; gap: .5rem;
         }
         [data-theme="dark"] .profile-section-title, @media (prefers-color-scheme: dark) {
           .profile-section-title { color: #ddd; }
@@ -110,7 +149,7 @@
         </style>
 
         <div class="profile-section">
-          <div class="profile-section-title">Social & Contacts</div>
+          <div class="profile-section-title"><i class="far fa-address-card"></i> Social & Contacts</div>
           <div class="row">
             <div class="col">
               <div class="profile-links">
@@ -191,7 +230,7 @@
         </div>
 
         <div class="profile-section">
-          <div class="profile-section-title">Honorary Title</div>
+          <div class="profile-section-title"><i class="far fa-building"></i> Honorary Title</div>
           <div class="row">
             <div class="col">
               <div class="profile-links">

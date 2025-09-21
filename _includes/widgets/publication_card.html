@@ -4,7 +4,7 @@
         {% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Recent Publications{% endif %} 
         <a href="publications">(view all <i class="fas fa-angle-double-right"></i>)</a> <a href='https://scholar.google.com/citations?user=SSaBaioAAAAJ'><img src="https://img.shields.io/endpoint?url=https://wangrongsheng.github.io/assets/results/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
     </h6>
-    {% for item in publications limit:include.limit %}
+    {% for item in publications limit:5 %}
         {% include widgets/publication_item.html item=item %}    
     {% endfor %}
     <h6 class="d-block p-3 mt-0 text-right">

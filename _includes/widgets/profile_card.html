@@ -1,228 +1,232 @@
 <div class="row">
-    <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body p-5">
-                <div class="row">
-                    <div class="col">
-                        <p class="h1 font-weight-normal">{{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small></p>
-                        <p class="text-profile-position">
-                            {% for position in site.data.profile.positions %}
-                            {{ position }}<br/>
-                            {% endfor %}
-                            {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> [Curriculum Vitae]</a> <br/>
-                            {% endif %}
-                        </p>
-                        <p class="text-profile-bio">
-                            {{ site.data.profile.short_bio }}
-                        </p>
-                    </div>
-                    {% if site.data.profile.show_portrait %}
-                    <div class="col-md-auto d-none d-md-block">
-                        <figure class="figure">
-                            <img 
-                                src="{{ site.data.profile.portrait_url }}" 
-                                class="figure-img img-fluid img-thumbnail" 
-                                style="height: 200px;"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}"
-                            >
-                            <figcaption class="figure-caption text-right"></figcaption>
-                        </figure>
-                    </div>
-                    {% endif %}
-        
-                </div>
+  <div class="col">
+    <div class="card border-0 shadow-sm bg-white">
+      <div class="card-body p-5">
+        <div class="row">
+          <div class="col">
+            <p class="h1 font-weight-normal">{{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small></p>
+            <p class="text-profile-position">
+              {% for position in site.data.profile.positions %}
+              {{ position }}<br/>
+              {% endfor %}
+              {% if site.data.profile.cv_link %}
+              <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> [Curriculum Vitae]</a> <br/>
+              {% endif %}
+            </p>
+            <p class="text-profile-bio">
+              {{ site.data.profile.short_bio }}
+            </p>
+          </div>
+          {% if site.data.profile.show_portrait %}
+          <div class="col-md-auto d-none d-md-block">
+            <figure class="figure">
+              <img 
+                src="{{ site.data.profile.portrait_url }}" 
+                class="figure-img img-fluid img-thumbnail" 
+                style="height: 200px;"
+                data-toggle="tooltip" 
+                data-placement="top" 
+                title="{{ site.data.profile.portrait_caption }}"
+              >
+              <figcaption class="figure-caption text-right"></figcaption>
+            </figure>
+          </div>
+          {% endif %}
+        </div>
 
-                <!-- ====== 美化后的【联系方式/社交链接】区块开始 ====== -->
-                <style>
-                /* ============== Profile Links (Start) ============== */
-                .profile-links {
-                  display: flex;
-                  flex-wrap: wrap;
-                  gap: .5rem .75rem;
-                  align-items: center;
-                }
-                .profile-chip {
-                  --chip-bg: #f8f9fa;
-                  --chip-fg: #212529;
-                  --chip-bd: rgba(0,0,0,.08);
-                  --chip-hover: #fff;
-                  display: inline-flex;
-                  align-items: center;
-                  padding: .45rem .75rem;
-                  border: 1px solid var(--chip-bd);
-                  border-radius: 999px;
-                  background: var(--chip-bg);
-                  color: var(--chip-fg);
-                  text-decoration: none;
-                  line-height: 1;
-                  transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
-                  box-shadow: 0 1px 1px rgba(0,0,0,.04);
-                  font-weight: 500;
-                  white-space: nowrap;
-                }
-                .profile-chip:hover { 
-                  transform: translateY(-1px);
-                  background: var(--chip-hover);
-                  box-shadow: 0 4px 10px rgba(0,0,0,.08);
-                  text-decoration: none; 
-                }
-                .profile-chip i, .profile-chip img { margin-right: .5rem; }
-                .profile-chip img { height: 1em; vertical-align: middle; }
-                .profile-chip .email-text { font-variant-numeric: lining-nums; }
-                /* 品牌前景色 */
-                .profile-chip.github i { color: #171515; }
-                .profile-chip.twitter i { color: #1d9bf0; }
-                .profile-chip.zhihu i { color: #056de8; }
-                .profile-chip.linkedin i { color: #0a66c2; }
-                .profile-chip.orcid i { color: #a6ce39; }
-                .profile-chip.scholar i { color: #4285f4; }
-                .profile-chip.wechat i { color: #07c160; }
-                .profile-chip.rednote img,
-                .profile-chip.baiduppde img { filter: none; }
-                /* 暗色模式 */
-                [data-theme="dark"] .profile-chip { 
-                  --chip-bg: #1f2227; 
-                  --chip-fg: #e9ecef; 
-                  --chip-bd: rgba(255,255,255,.12);
-                  --chip-hover: #262a30;
-                }
-                @media (prefers-color-scheme: dark) {
-                  .profile-chip { 
-                    --chip-bg: #1f2227; 
-                    --chip-fg: #e9ecef; 
-                    --chip-bd: rgba(255,255,255,.12);
-                    --chip-hover: #262a30;
-                  }
-                }
-                /* ============== Profile Links (End) ============== */
-                </style>
+        <!-- ✅ 美化后的联系方式/社交链接区块 -->
+        <style>
+        .profile-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: .5rem .75rem;
+          align-items: center;
+        }
+        .profile-chip {
+          --chip-bg: #f8f9fa;
+          --chip-fg: #212529;
+          --chip-bd: rgba(0,0,0,.08);
+          --chip-hover: #fff;
+          display: inline-flex;
+          align-items: center;
+          padding: .45rem .75rem;
+          border: 1px solid var(--chip-bd);
+          border-radius: 999px;
+          background: var(--chip-bg);
+          color: var(--chip-fg);
+          text-decoration: none;
+          line-height: 1;
+          transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
+          box-shadow: 0 1px 1px rgba(0,0,0,.04);
+          font-weight: 500;
+          white-space: nowrap;
+        }
+        .profile-chip:hover { 
+          transform: translateY(-1px);
+          background: var(--chip-hover);
+          box-shadow: 0 4px 10px rgba(0,0,0,.08);
+          text-decoration: none; 
+        }
+        .profile-chip i, .profile-chip img { margin-right: .5rem; }
+        .profile-chip img { height: 1em; vertical-align: middle; }
+        .profile-chip .email-text { font-variant-numeric: lining-nums; }
 
-                <hr />
-                <div class="row">
-                  <div class="col">
-                    <div class="profile-links">
-                      <!-- Email -->
-                      <a class="profile-chip" href="mailto:{{ site.data.profile.email | encode_email }}" aria-label="Email">
-                        <i class="fas fa-at"></i>
-                        <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
-                      </a>
+        .profile-chip.github i { color: #171515; }
+        .profile-chip.twitter i { color: #1d9bf0; }
+        .profile-chip.zhihu i { color: #056de8; }
+        .profile-chip.linkedin i { color: #0a66c2; }
+        .profile-chip.orcid i { color: #a6ce39; }
+        .profile-chip.scholar i { color: #4285f4; }
+        .profile-chip.wechat i { color: #07c160; }
 
-                      <!-- 学术平台 -->
-                      {% if site.data.profile.gscholar %}
-                      <a class="profile-chip scholar" target="_blank" rel="noopener" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en" aria-label="Google Scholar">
-                        <i class="fab fa-google"></i>Google Scholar
-                      </a>
-                      {% endif %}
+        [data-theme="dark"] .profile-chip, @media (prefers-color-scheme: dark) {
+          .profile-chip {
+            --chip-bg: #1f2227;
+            --chip-fg: #e9ecef;
+            --chip-bd: rgba(255,255,255,.25);
+            --chip-hover: #262a30;
+          }
+        }
+        .profile-section {
+          border: 1px solid rgba(0,0,0,.1);
+          border-radius: 12px;
+          padding: 1.5rem;
+          margin: 2rem 0;
+          background: #fff;
+        }
+        [data-theme="dark"] .profile-section, @media (prefers-color-scheme: dark) {
+          .profile-section { background: #1f2227; border-color: rgba(255,255,255,.1); }
+        }
+        .profile-section-title {
+          font-size: 1rem;
+          font-weight: 600;
+          margin-bottom: 1rem;
+          color: #444;
+        }
+        [data-theme="dark"] .profile-section-title, @media (prefers-color-scheme: dark) {
+          .profile-section-title { color: #ddd; }
+        }
+        </style>
 
-                      {% if site.data.profile.sscholar %}
-                      <a class="profile-chip" target="_blank" rel="noopener" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}" aria-label="Semantic Scholar">
-                        <i class="fa fa-book"></i>Semantic Scholar
-                      </a>
-                      {% endif %}
-                      
-                      <!-- 代码/社区 -->
-                      {% if site.data.profile.github %}
-                      <a class="profile-chip github" target="_blank" rel="me noopener" href="https://github.com/{{ site.data.profile.github }}" aria-label="GitHub">
-                        <i class="fab fa-github"></i>GitHub
-                      </a> 
-                      {% endif %}
+        <div class="profile-section">
+          <div class="profile-section-title">Social & Contacts</div>
+          <div class="row">
+            <div class="col">
+              <div class="profile-links">
+                <a class="profile-chip" href="mailto:{{ site.data.profile.email | encode_email }}">
+                  <i class="fas fa-at"></i>
+                  <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
+                </a>
 
-                      {% if site.data.profile.wechat_qrcode %}
-                      <a class="profile-chip wechat" data-toggle="modal" data-target="#modal-wechat" role="button" aria-label="WeChat">
-                        <i class="fab fa-weixin"></i>WeChat
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.gscholar %}
+                <a class="profile-chip scholar" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
+                  <i class="fab fa-google"></i> Google Scholar
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.twitter %}
-                      <a class="profile-chip twitter" target="_blank" rel="me noopener" href="https://twitter.com/{{ site.data.profile.twitter }}" aria-label="Twitter/X">
-                        <i class="fab fa-twitter"></i>Twitter
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.sscholar %}
+                <a class="profile-chip" target="_blank" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}">
+                  <i class="fa fa-book"></i> Semantic Scholar
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.zhihu %}
-                      <a class="profile-chip zhihu" target="_blank" rel="me noopener" href="https://www.zhihu.com/people/{{ site.data.profile.zhihu }}" aria-label="ZhiHu">
-                        <i class="fab fa-zhihu"></i>ZhiHu
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.github %}
+                <a class="profile-chip github" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.resume %}
-                      <a class="profile-chip" target="_blank" rel="noopener" href="https://wangrongsheng.github.io/{{ site.data.profile.resume }}" aria-label="Resume">
-                        <i class="fa fa-file"></i>Resume
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.twitter %}
+                <a class="profile-chip twitter" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
+                  <i class="fab fa-twitter"></i> Twitter
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.linkedin %}
-                      <a class="profile-chip linkedin" target="_blank" rel="me noopener" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin"></i>LinkedIn
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.zhihu %}
+                <a class="profile-chip zhihu" target="_blank" href="https://www.zhihu.com/people/{{ site.data.profile.zhihu }}">
+                  <i class="fab fa-zhihu"></i> ZhiHu
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.orcid %}
-                      <a class="profile-chip orcid" target="_blank" rel="me noopener" href="https://orcid.org/{{ site.data.profile.orcid }}" aria-label="ORCID">
-                        <i class="fab fa-orcid"></i>ORCID
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.linkedin %}
+                <a class="profile-chip linkedin" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
+                  <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.xiaohongshu %}
-                      <a class="profile-chip rednote" target="_blank" rel="noopener" href="https://www.xiaohongshu.com/user/profile/{{ site.data.profile.xiaohongshu }}" aria-label="RedNote">
-                        <img src="https://raw.githubusercontent.com/WangRongsheng/WangRongsheng.github.io/refs/heads/main/assets/images/rednote.png" alt="RedNote"> RedNote
-                      </a>
-                      {% endif %}
+                {% if site.data.profile.orcid %}
+                <a class="profile-chip orcid" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
+                  <i class="fab fa-orcid"></i> ORCID
+                </a>
+                {% endif %}
 
-                      {% if site.data.profile.cv_link %}
-                      <a class="profile-chip" target="_blank" rel="noopener" href="{{ site.data.profile.cv_link }}" aria-label="Curriculum Vitae">
-                        <i class="fas fa-file-alt"></i>CV
-                      </a>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
+                {% if site.data.profile.cv_link %}
+                <a class="profile-chip" target="_blank" href="{{ site.data.profile.cv_link }}">
+                  <i class="fas fa-file-alt"></i> CV
+                </a>
+                {% endif %}
 
-                <hr />
-                <div class="row">
-                  <div class="col">
-                    {% if site.data.profile.baiduppde == true %}
-                      <a class="profile-chip baiduppde" target="_blank" rel="noopener" href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C" aria-label="Baidu PPDE">
-                        <img src="https://raw.githubusercontent.com/WangRongsheng/WangRongsheng.github.io/refs/heads/main/assets/images/baidu.png" alt="Baidu PPDE"> Baidu PPDE
-                      </a>
-                    {% else %}
-                      <a class="profile-chip baiduppde" target="_blank" rel="noopener" href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C" aria-label="Baidu PPDE">
-                        <img src="https://raw.githubusercontent.com/WangRongsheng/WangRongsheng.github.io/refs/heads/main/assets/images/baidu.png" alt="Baidu PPDE"> Baidu PPDE
-                      </a>
-                    {% endif %}
-                  </div>
-                </div>
-                <!-- ====== 美化后的【联系方式/社交链接】区块结束 ====== -->
-                
+                {% if site.data.profile.resume %}
+                <a class="profile-chip" target="_blank" href="https://wangrongsheng.github.io/{{ site.data.profile.resume }}">
+                  <i class="fa fa-file"></i> Resume
+                </a>
+                {% endif %}
+
+                {% if site.data.profile.wechat_qrcode %}
+                <a class="profile-chip wechat" data-toggle="modal" data-target="#modal-wechat">
+                  <i class="fab fa-weixin"></i> WeChat
+                </a>
+                {% endif %}
+
+                {% if site.data.profile.xiaohongshu %}
+                <a class="profile-chip rednote" target="_blank" href="https://www.xiaohongshu.com/user/profile/{{ site.data.profile.xiaohongshu }}">
+                  <img src="https://raw.githubusercontent.com/WangRongsheng/WangRongsheng.github.io/refs/heads/main/assets/images/rednote.png" alt="RedNote"> RedNote
+                </a>
+                {% endif %}
+
+              </div>
             </div>
-        </div>        
-    </div>
+          </div>
+        </div>
+
+        <div class="profile-section">
+          <div class="profile-section-title">Honorary Title</div>
+          <div class="row">
+            <div class="col">
+              <div class="profile-links">
+                <a class="profile-chip baiduppde" target="_blank" href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">
+                  <img src="https://raw.githubusercontent.com/WangRongsheng/WangRongsheng.github.io/refs/heads/main/assets/images/baidu.png" alt="Baidu PPDE"> Baidu PPDE
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>        
+  </div>
 </div>
 
 {% if site.data.profile.wechat_qrcode %}
 <div class="modal fade" id="modal-wechat" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-body p-0">
-                <img src="{{ site.data.profile.wechat_qrcode }}" class="img-fluid">
-            </div>
-            {% if site.data.profile.wechat_prompt %}
-            <div class="modal-body p-1">
-                {{ site.data.profile.wechat_prompt }}
-            </div>
-            {% endif %}
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <img src="{{ site.data.profile.wechat_qrcode }}" class="img-fluid">
+      </div>
+      {% if site.data.profile.wechat_prompt %}
+      <div class="modal-body p-1">
+        {{ site.data.profile.wechat_prompt }}
+      </div>
+      {% endif %}
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
     </div>
+  </div>
 </div>
 {% endif %}
 
-<!-- 若全局未启用 tooltip，这段可放在页面底部 -->
 <script>
   if (window.jQuery && typeof $ !== 'undefined') {
     $(function () { $('[data-toggle="tooltip"]').tooltip(); });

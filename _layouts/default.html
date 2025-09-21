@@ -46,12 +46,12 @@
             right: 10px;
             bottom: 10px;
         }
-        buttonvoice {
-          border: none;
-          background: none;
-          font-size: 24px; /* 调整大小 */
-          cursor: pointer;
-        }
+        .speak-btn {
+            border: none;
+            background: none;
+            font-size: 24px;
+            cursor: pointer;
+          }
     </style>
 </head>
 
@@ -84,18 +84,18 @@
     </script> -->
 
     <script>
-    const name = "王荣胜"; // 把这里改成你的名字
-    const btn = document.getElementById('speakBtn');
-
-    btn.addEventListener('click', () => {
-      if (!('speechSynthesis' in window)) {
-        alert('当前浏览器不支持语音朗读');
-        return;
-      }
-      window.speechSynthesis.cancel();
-      const utter = new SpeechSynthesisUtterance(name);
-      utter.lang = 'zh-CN';
-      window.speechSynthesis.speak(utter);
+    document.querySelectorAll('.speak-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const name = btn.dataset.name; // 从 data-name 取名字
+        if (!('speechSynthesis' in window)) {
+          alert('当前浏览器不支持语音朗读');
+          return;
+        }
+        window.speechSynthesis.cancel();
+        const utter = new SpeechSynthesisUtterance(name);
+        utter.lang = 'zh-CN';
+        window.speechSynthesis.speak(utter);
+      });
     });
   </script>
 </body>

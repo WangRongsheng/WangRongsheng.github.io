@@ -113,39 +113,9 @@
                 <hr />
                 <div class="row">
                     <div class="col">
-                        <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
-                            <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
+                        <a class="pr-3 no-break" target="_blank" href="https://www.paddlepaddle.org.cn/ppdemd?n=/ppdemd/%E7%8E%8B%E8%8D%A3%E8%83%9C">
+                            <img src="https://raw.githubusercontent.com/WangRongsheng/WangRongsheng.github.io/refs/heads/main/assets/images/baidu.png" alt="BaiduPPDE" style="height: 1em; vertical-align: middle;"> Baidu PPDE
                         </a>
-
-                        {% if site.data.profile.gscholar %}
-                        <a class="pr-3 no-break" target="_blank" href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en">
-                            <i class="fab fa-google"></i> Google Scholar
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.sscholar %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.semanticscholar.org/author/{{ site.data.profile.sscholar }}">
-                            <i class="fa fa-book"></i> Semantic Scholar
-                        </a>
-                        {% endif %}
-                        
-                        {% if site.data.profile.github %}
-                        <a class="pr-3 no-break" target="_blank" href="https://github.com/{{ site.data.profile.github }}">
-                            <i class="fab fa-github"></i> GitHub
-                        </a> 
-                        {% endif %}
-
-                        {% if site.data.profile.wechat_qrcode %}
-                        <a class="pr-3 no-break" data-toggle="modal" data-target="#modal-wechat">
-                            <i class="fab fa-weixin"></i> WeChat
-                        </a>
-                        {% endif %}
-
-                        {% if site.data.profile.twitter %}
-                        <a class="pr-3 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
-                            <i class="fab fa-twitter"></i> Twitter
-                        </a>
-                        {% endif %}
 
                     </div>
                 </div>

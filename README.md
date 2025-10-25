@@ -16,17 +16,48 @@ Click [here](https://luost.me/academic-homepage/) to see the preview of the temp
       "type": "Feature",
       "id": 1,
       "properties": {
+        "name": "The Chinese University of Hong Kong, Shenzhen Area",
         "ID": 0
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
-              [-77.4286, 39.0481],
-              [-77.2085, 39.0481],
-              [-77.2085, 38.9343],
-              [-77.4286, 38.9343],
-              [-77.4286, 39.0481]
+            [114.0450, 22.6150],
+            [114.0638, 22.6150],
+            [114.0638, 22.6030],
+            [114.0450, 22.6030],
+            [114.0450, 22.6150]
+          ]
+        ]
+      }
+    }
+  ]
+}
+
+
+```
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "name": "The Chinese University of Hong Kong, Shenzhen Area",
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.0450, 22.6150],
+            [114.0638, 22.6150],
+            [114.0638, 22.6030],
+            [114.0450, 22.6030],
+            [114.0450, 22.6150]
           ]
         ]
       }
